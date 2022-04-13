@@ -158,6 +158,26 @@ class PermissionsTableSeeder extends Seeder
                 'id'    => 37,
                 'title' => 'crm_document_access',
             ],
+            [
+                'id'    => 38,
+                'title' => 'agama_create',
+            ],
+            [
+                'id'    => 39,
+                'title' => 'agama_edit',
+            ],
+            [
+                'id'    => 40,
+                'title' => 'agama_show',
+            ],
+            [
+                'id'    => 41,
+                'title' => 'agama_delete',
+            ],
+            [
+                'id'    => 42,
+                'title' => 'agama_access',
+            ],
         ];
 
         Permission::insert($permissions);

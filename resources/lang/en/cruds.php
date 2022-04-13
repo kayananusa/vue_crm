@@ -155,4 +155,22 @@ return [
             'deleted_at_helper'    => ' ',
         ],
     ],
+    'agama' => [
+        'title'          => 'Agama',
+        'title_singular' => 'Agama',
+        'fields'         => [
+            'id'                => 'ID',
+            'id_helper'         => ' ',
+            'name'              => 'Name',
+            'name_helper'       => 'Name',
+            'keterangan'        => 'desc',
+            'keterangan_helper' => 'desc',
+            'created_at'        => 'Created at',
+            'created_at_helper' => ' ',
+            'updated_at'        => 'Updated at',
+            'updated_at_helper' => ' ',
+            'deleted_at'        => 'Deleted at',
+            'deleted_at_helper' => ' ',
+        ],
+    ],
 ];

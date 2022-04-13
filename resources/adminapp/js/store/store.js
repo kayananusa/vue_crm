@@ -18,6 +18,8 @@ import CrmNotesIndex from './cruds/CrmNotes'
 import CrmNotesSingle from './cruds/CrmNotes/single'
 import CrmDocumentsIndex from './cruds/CrmDocuments'
 import CrmDocumentsSingle from './cruds/CrmDocuments/single'
+import AgamasIndex from './cruds/Agamas'
+import AgamasSingle from './cruds/Agamas/single'
 
 Vue.use(Vuex)
 
@@ -40,7 +42,9 @@ export default new Vuex.Store({
     CrmNotesIndex,
     CrmNotesSingle,
     CrmDocumentsIndex,
-    CrmDocumentsSingle
+    CrmDocumentsSingle,
+    AgamasIndex,
+    AgamasSingle
   },
   strict: debug
 })

@@ -198,6 +198,30 @@ const routes = [
             name: 'crm_documents.edit',
             component: () => import('@cruds/CrmDocuments/Edit.vue'),
             meta: { title: 'cruds.crmDocument.title' }
+          },
+          {
+            path: 'agamas',
+            name: 'agamas.index',
+            component: () => import('@cruds/Agamas/Index.vue'),
+            meta: { title: 'cruds.agama.title' }
+          },
+          {
+            path: 'agamas/create',
+            name: 'agamas.create',
+            component: () => import('@cruds/Agamas/Create.vue'),
+            meta: { title: 'cruds.agama.title' }
+          },
+          {
+            path: 'agamas/:id',
+            name: 'agamas.show',
+            component: () => import('@cruds/Agamas/Show.vue'),
+            meta: { title: 'cruds.agama.title' }
+          },
+          {
+            path: 'agamas/:id/edit',
+            name: 'agamas.edit',
+            component: () => import('@cruds/Agamas/Edit.vue'),
+            meta: { title: 'cruds.agama.title' }
           }
         ]
       }

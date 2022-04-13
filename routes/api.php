@@ -29,4 +29,7 @@ Route::group(['prefix' => 'v1', 'as' => 'api.', 'namespace' => 'Api\V1\Admin', '
     // Crm Document
     Route::post('crm-documents/media', 'CrmDocumentApiController@storeMedia')->name('crm-documents.storeMedia');
     Route::resource('crm-documents', 'CrmDocumentApiController');
+
+    // Agama
+    Route::resource('agamas', 'AgamaApiController');
 });

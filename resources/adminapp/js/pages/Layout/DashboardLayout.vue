@@ -88,6 +88,12 @@ export default {
               icon: 'table_view',
               path: { name: 'crm_documents.index' },
               gate: 'crm_document_access'
+            },
+            {
+              title: 'cruds.agama.title',
+              icon: 'table_view',
+              path: { name: 'agamas.index' },
+              gate: 'agama_access'
             }
           ]
         }
